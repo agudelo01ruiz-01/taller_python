@@ -176,3 +176,4 @@ else:
         -total pagar:{total_compra - (total_compra*0.2)}""")
 
 
+
