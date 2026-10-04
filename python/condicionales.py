@@ -1,6 +1,7 @@
+#crear variables 1
+
 """
-#crear variables
-print("por favor ingrese los siguientes  dato\n")
+print("por favor ingrese los siguientes  datos\n")
 var_nombre = input("nombre:") 
 var_edad = int(input("edad:"))
 
@@ -41,8 +42,20 @@ else:
     print("El número es cero")
 
 """
-#Ejercicio 2: Determinar si un número es par o impar
+# Ejercicio 2: Verificar si una persona es mayor de edad
 
+"""
+# Ejercicio 2: Verificar si una persona es mayor de edad
+edad = int(input("Ingrese su edad: "))
+
+if edad >= 18:
+    print("Es mayor de edad")
+else:
+    print("Es menor de edad")
+
+""" 
+
+#Ejercicio 3: Determinar si un número es par o impar
 
 """
 numero = int(input("Ingrese un número entero: "))
@@ -55,9 +68,10 @@ else:
 # Ejercicio 3: Clasificar una nota académica
 
 """
+# Ejercicio 4: Clasificar una nota académica
+
 """
 
-# Ejercicio 3: Clasificar una nota académica
 
 nota = float(input("Ingrese la nota obtenida (0.0 a 5.0): "))
 
@@ -71,7 +85,7 @@ else:
     print("Desempeño bajo")
 """
 
-# Ejercicio 4: Determinar el mayor de tres números
+# Ejercicio 5: Determinar el mayor de tres números
 
 """
 n1 = float(input("Ingrese el primer número: "))
@@ -140,13 +154,13 @@ else :
 #3.Elaborar un algoritmo que solicite el nombre de un cliente y el valor total de una compra, y calcule el descuento según el valor:
 
 
-nombre = input("nombre")
-total_compra = float(input("total compra:"))
+nombre = input("nombre: ")
+total_compra = float(input("total compra: "))
 
 if total_compra < 100000:
     print(f"""
     -cliente:{nombre}
-    -compra:{total_compra}no tiene descuento
+    -compra:{total_compra} No tiene descuento
     """)
 elif total_compra < 299999 :
     #descuento 10%
